@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="это моя первая страница">
+    <meta name="author" content="Илья">
+    <meta name="keywords" content="(ключевые слова)">
+    <meta name="robots" content="index, follow"> <!-- index это общий доступ noindex приват, follow это переходить по ссылкам nofollow наоборот, либо можно оставить значение all бля разрешения всего-->
+
+    <!-- метаразметки OpenGraph-->
+    <meta property="og:title" content="это моя первая страница"> <!-- когда ты делишься в соц сетях этой страницей будет появляться минимальная информаация о ней-->
+    <title>1project</title>
+   
+</head>
+
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <h1>hi world</h1>
+    <!--h1 это оглавления, h1 может быть только один, макс до h6-->
+
+    <div></div>
+    <p>обзац</p>
+    <span>строчка</span>
+    <!--в строчные теги нельзя помещать блочные теги, можно делать наоборот-->
+
+    <!--<ul>список точка</ul>-->
+    <!--<ol>список цифра</ol>-->
+
+    <ul>
+        <!--в списках пронумерованные элементы должны быть в тегах <li>-->
+        <li>эелемент</li>
+        <li>эелемент</li>
+        <li>эелемент</li>
+        <li>эелемент</li>
+
+    </ul>
+    <ol>
+
+        <li>эелемент</li>
+        <li>эелемент</li>
+        <li>эелемент</li>
+        <li>эелемент</li>
+
+    </ol>
+
+
+    <span>Lorem ipsum dolor <b>sit amet</b>sit amet, consectetur adipisicing <em>sit amet</em>elit. Consequuntur incidunt temporibus repellat porro alias eum, <big>sit amet</big>ipsa consectetur iste ab accusamus.</span>
+    <p><b>жирный</b></p>
+    <p><em>курсив</em></p>
+    <p><big>"большой"</big>шрифт</p>
+    <p><small>"маленький"</small>шрифт</p>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <!--тег br переносит на новую строку текст стоящий после тега--><br>Cupiditate, delectus.
+    </span>
+
+    <a href="">ссылка откроется на текущей странице</a>
+    <a href="" target="_blank">ссылка откроет новое окно</a>
+    <img src="img/%D0%A5%D0%B8%D0%B4%D0%B5%D0%BE-%D0%9A%D0%BE%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0-%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B1%D0%B0%D0%BB%D1%82%D0%B8%D0%BA%D0%B0-3-%D0%BF%D0%B5%D1%81%D0%BE%D1%87%D0%BD%D0%B8%D1%86%D0%B0-5423797.jpeg" alt="ой, Хидео убежал">
+
+    <table border="1" width="100%">
+        <!--тег таблицы-->
+        <tr>
+            <!-- tr это строка-->
+            <th>111</th>
+            <!--заголовки колонок-->
+            <th>112</th>
+            <th>113</th>
+        </tr>
+        <tr>
+            <td>ячейка 111</td>
+            <!--ячейки с содержанием-->
+            <td>ячейка 112</td>
+            <td>ячейка 113</td>
+        </tr>
+        <tr>
+            <td>ячейка 111</td>
+            <!--ячейки с содержанием-->
+            <td>ячейка 112</td>
+            <td>ячейка 113</td>
+        </tr>
+        <tr>
+            <td>ячейка 111</td>
+            <!--ячейки с содержанием-->
+            <td>ячейка 112</td>
+            <td>ячейка 113</td>
+        </tr>
+    </table>
+    <form action="#">
+        <!--граница формы, какого-то интерактива. актион это путь к серверному скрипту-->
+        <input type="text" name="name" value="" placeholder="введите ваше имя"> <!-- атрибут name это индентификатор для серверного скрипта-->
+        <!--атрибут value показывает что будет написано в строчке-->
+        <!-- placeholder тоже самое что и value только оно видно на стене и не надо удалять чтобы ввести данные-->
+        <input type="password" placeholder="введите ваш пароль"> <!-- в строке password все символы будут завуалированы-->
+        <input type="tel" placeholder="введите ваш телефон"> <!-- телефон-->
+        <input type="number" placeholder="сколько вам лет">
+        <input type="radio" name="text_input1" value="1"> Муж
+        <!--у радиокнопок "name" должны быть уникальными и одинаковыми-->
+        <input type="radio" name="text_input1" value="2"> Жен
+
+        <input type="checkbox" name="check1" value="4"> Чек1
+        <!-- у боксов "name" должны быть разными-->
+        <input type="checkbox" name="check2" value="5"> Чек2
+        <input type="checkbox" name="check3" value="6"> Чек3
+        <input type="file">
+        <textarea name="name" id="1" cols="10" rows="5"> <!-- область для текста-->
+            
+        </textarea>
+        <select name="список" id="list" multiple>
+            <!-- значение multiple дает возможность выделять несколько пунктов-->
+            <option value="11"> 11</option> <!-- пункты в списке-->
+            <option value="12"> 12</option>
+            <option value="13"> 13</option>
+
+        </select>
+        <input type="submit" value="отправить"> <!-- отправляет данные выше по пути который указан  актион-->
+        <input type="reset" value="стереть">
+
+
+    </form>
+
+
+
+</body>
+
+</html>
