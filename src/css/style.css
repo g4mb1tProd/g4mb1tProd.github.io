@@ -1,0 +1,170 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #2a3e51;
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 300px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) 90% 100%/auto 85% no-repeat, url(../img/%D1%84%D0%BE%D0%BD.png) center/cover no-repeat;
+}
+
+.title__conteiner {
+    float: left;
+    margin: 300px 0px 0px 200px;
+    color: #213549;
+    text-align: center;
+}
+
+.title__conteiner h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title__conteiner h4 {
+    margin-top: 20px;
+    color: #76828f;
+    font-size: 20px;
+}
+
+.title__conteiner input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #697784;
+    background: none;
+    border-radius: 5px;
+    color: #697784;
+    font-size: 12px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.about__me h2 {
+    font-size: 30px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: #1a2f43;
+    text-align: center;
+    font-weight: 500;
+}
+
+.about__me img {
+    margin: 30px 0px 30px 705px;
+}
+
+.portret {
+    margin: 35px 0px 30px 645px;
+}
+
+.description1 {
+    text-align: left;
+    margin: 0px 0px 0px 300px;
+    color: #38485a;
+}
+
+.description2 {
+    text-align: left;
+    margin: 40px 0px 0px 300px;
+    color: #38485a;
+}
+
+.description2 input {
+    text-align: center;
+    border: 2px solid #697784;
+    background: none;
+    border-radius: 5px;
+    color: #697784;
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 40px 0px 100px 390px;
+}
+
+.i__can {
+    width: 100%;
+    height: 100%;
+    background: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) center/cover no-repeat;
+}
+
+.i__can__logo h2 {
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: #1a2f43;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.i__can__img {
+    margin: 30px 0px 30px 705px;
+}
+
+.child {
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: 100px;
+    padding: 100px 40px 100px 40px;
+}
+
+.child h5 {
+    text-align: center;
+    color: #e87700;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+}
+
+.case h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: #1a2f43;
+    text-align: center;
+    font-weight: 500;
+}
+
+.child1 {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100px;
+    padding: 100px 40px 100px 40px;
+}
+.money h2{
+     text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: #1a2f43;
+    text-align: center;
+    font-weight: 500;
+}
